@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schriftgeschichte – Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../html/heropage.html">
+          <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="../video/schriftgeschichte Hero.mp4" type="video/mp4">
+
+    </video>
+    <div class="hero-content">
+      <h1>Die Geschichte der Schrift</h1>
+      <p>Von den ersten Zeichen der Menschheit bis zur modernen Typografie.</p>
+    </div>
+  </section>
+
+  <main class="grid-section">
+    <div class="grid-content">
+      <h2>Schriftgeschichte</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="../img/keilschrift.jpg" alt="Tontafel mit Keilschrift">
+          <h3>Ursprünge der Schrift</h3>
+          <p>Die ersten Formen der Schrift entstanden vor über 5000 Jahren. Dazu gehören Keilschrift in Mesopotamien und
+            Hieroglyphen im alten Ägypten.</p>
+            <a href="https://de.wikipedia.org/wiki/Geschichte_der_Schrift" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/gutenberg_bibel.jpg" alt="Gutenberg-Bibel">
+          <h3>Die Entwicklung über die Jahrhunderte</h3>
+          <p>Von den römischen Capitalis-Schriften bis zur Erfindung des Buchdrucks durch Johannes Gutenberg im 15.
+            Jahrhundert – die Schrift veränderte die Welt.</p>
+            <a href="https://www.typolexikon.de/schriftgeschichte/" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/schriftentwicklung.png" alt="Infografik zur Schriftentwicklung">
+          <h3>Meilensteine der Schriftgeschichte</h3>
+          <p>Wichtige Ereignisse wie die Entstehung der Antiqua-Schriften, die Industrialisierung des Buchdrucks und
+            digitale Typografie prägten das heutige Schriftbild.</p>
+            <a href="https://de.wikipedia.org/wiki/Geschichte_der_Schrift" class="btn" target="_blank">Mehr lesen</a>
+            
+            </a>
+            
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function () {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

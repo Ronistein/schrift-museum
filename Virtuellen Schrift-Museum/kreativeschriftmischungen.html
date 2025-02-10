@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kreative Schriftmischungen – Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../html/heropage.html">
+          <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="../video/schriftmischungen.mp4" type="video/mp4">
+      Ihr Browser unterstützt kein Video.
+    </video>
+    <div class="hero-content">
+      <h1>Kreative Schriftmischungen</h1>
+      <p>Wie kombiniert man verschiedene Schriftarten harmonisch?</p>
+    </div>
+  </section>
+
+  <main class="grid-section">
+    <div class="grid-content">
+      <h2>Die Kunst der Schriftmischung</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="../img/Grundlagen der Schriftmischung.jpg" alt="Grundlagen der Schriftmischung">
+          <h3>Grundlagen der Schriftmischung</h3>
+          <p>Erfolgreiche Schriftmischung basiert auf Kontrasten und einer harmonischen Kombination verschiedener Schriftarten.</p>
+          <a href="https://de.wikipedia.org/wiki/Schriftmischung" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/Kombinationen mit harmonischem Kontrast.png" alt="Beispiele für Schriftkombinationen">
+          <h3>Kombinationen mit harmonischem Kontrast</h3>
+          <p>Gut abgestimmte Schriftmischungen verbessern die Lesbarkeit und verleihen dem Design eine ästhetische Balance. Der richtige Mix schafft Klarheit und visuelle Hierarchie.</p>
+          <a href="https://www.techtag.de/digitalisierung/font-pairing-schriftarten-clever-kombinieren/" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/Typografische Fehler vermeiden.jpg" alt="Grundlagen der Schriftmischung">
+          <h3>Typografische Fehler vermeiden</h3>
+          <p>Zu viele oder zu ähnliche Schriften stören die Lesbarkeit. Nutze max. 2–3 Kontrast-Schriften und achte auf klare Hierarchie für ein harmonisches Design.</p>
+          <a href="https://www.kleingedruckt.net/blog/ratgeber-fotobuch/die-10-haeufigsten-fehler-in-der-typographie.html" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

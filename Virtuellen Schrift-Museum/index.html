@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+
+        <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <video class="bg-video" autoplay loop muted playsinline>
+        <source src="../video/5157-183300197_medium.mp4" type="video/mp4">
+
+      </video>
+      <div class="hero-content">
+        <h1>Willkommen im Virtuellen Schrift-Museum</h1>
+        <p>Erleben Sie die faszinierende Welt der Schrift.</p>
+
+      </div>
+    </section>
+
+    <section class="grid-section">
+
+      <div class="grid-content">
+        <h2>Jetzt entdecken</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <a href="../html/Schriftgeschichte.html">
+              <img src="../img/Schriftgeschichte.jpg" alt="Schriftgeschichte" class="responsive-img">
+              <h3>Schriftgeschichte</h3>
+              <p>
+                Schriftgeschichte – Erkunden Sie die Ursprünge und Entwicklungen der Schrift, von den ersten
+                Keilschriften und Hieroglyphen bis zur modernen digitalen Typografie. Entdecken Sie, wie Schrift die
+                Kommunikation, Kultur und Technologie geprägt hat. </p>
+            </a>
+
+          </div>
+          <div class="grid-item">
+            <a href="../html/berühmteypografen.html">
+              <img src="../img/berühmteypografen.jpg" alt="Berühmte Typografen" class="responsive-img">
+              <h3>Berühmte Typografen</h3>
+              <p>Johannes Gutenberg erfand den Buchdruck, Claude Garamond entwickelte elegante Serifen-Schriften, und
+                John Baskerville verbesserte die Druckqualität. Ihre Werke prägen die Typografie bis heute. </p>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="../html/Schriftklassifizierungen.html">
+              <img src="../img/Schriftklassifizierungen.jpg" alt="Schriftklassifizierungen" class="responsive-img">
+              <h3>Schriftklassifizierungen</h3>
+              <p>Schriften werden in Gruppen unterteilt. Die DIN 16518-Klassifikation ordnet sie in Antiqua und Grotesk.
+                Willbergs System basiert auf Stil und Lesbarkeit, während die Vox-ATypI-Klassifikation Schriften nach
+                Form unterscheidet. Diese Systeme helfen, Schriften gezielt auszuwählen.</p>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="../html/Webtypografie.html">
+              <img src="../img/webfonts.jpg" alt="Webtypografie" class="responsive-img">
+              <h3>Webtypografie</h3>
+              <p>Webtypografie optimiert Schriften für digitale Medien. Serifenschriften wirken klassisch, serifenlose
+                Schriften sind oft besser lesbar. Webfonts wie Google Fonts ermöglichen individuelle Designs, Variable
+                Fonts sorgen für flexible Anpassung. Moderne Webtypografie verbessert Lesbarkeit und Nutzererfahrung.
+              </p>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="../html/kreativeschriftmischungen.html">
+              <img src="../img/kreativeschriftmischungen.jpg" alt="Kreative Schriftmischungen" class="responsive-img">
+              <h3>Kreative Schriftmischungen</h3>
+              <p>Die richtige Kombination von Schriften verbessert Lesbarkeit und Design. Kontraste zwischen Serifen-
+                und serifenlosen Schriften sorgen für Harmonie. Ausgewogene Schriftmischungen schaffen Struktur und
+                visuelle Hierarchie.</p>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="../html/typografietrends.html">
+              <img src="../img/Typografie-Trends.webp" alt="Typografie-Trends" class="responsive-img">
+              <h3>Typografie-Trends</h3>
+              <p>Moderne Typografie setzt auf Minimalismus, handgeschriebene Schriften und Variable Fonts. Klare Linien,
+                kreative Kombinationen und digitale Anpassungen prägen aktuelle Designs. </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function () {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

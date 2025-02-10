@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../html/heropage.html">
+          <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="../video/contact.mp4" type="video/mp4">
+      Ihr Browser unterstützt kein Video.
+    </video>
+    <div class="hero-content">
+      <h1>Kontakt</h1>
+      <p>Haben Sie Fragen oder Anregungen? Kontaktieren Sie uns!</p>
+    </div>
+  </section>
+
+  <main class="contact-section">
+    <div class="contact-container">
+      <h2>Schreiben Sie uns</h2>
+      <form action="#" method="post" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Absenden</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Kontaktinformationen</h3>
+        <p><strong>E-Mail:</strong> info@schrift-museum.de</p>
+        <p><strong>Telefon:</strong> +49 123 456 789</p>
+        <p><strong>Adresse:</strong> Musterstraße 1, 12345 Musterstadt</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Virtuelles Schrift-Museum <br>gestaltet von Roni Omar <br> <a href="#" class="Impresum">Impresum</a> │ <a href="#">Datenschutz</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3399.31 1739.27">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Bauhaus93, 'Bauhaus 93';
+        font-size: 400px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f5f3e6;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M0,1739.27h643.96V358.96h49.76v1380.31h50.49V358.96h47v1380.31h50.48V358.96h47.01v1380.31h46.31V358.96h49.78v1380.31h50.48V358.96h46.99v1380.31h657.01V0H0v1739.27ZM143.88,143.87h1451.52v1451.52h-455.73V554.02c0-157.89,23.47-193.96,134.59-187.31-1.58,7.68-2.4,15.64-2.4,23.79,0,65.49,53.09,118.58,118.58,118.58s118.58-53.09,118.58-118.58-53.09-118.57-118.58-118.57H348.83c-65.48,0-118.58,53.09-118.58,118.57s53.09,118.58,118.58,118.58,118.58-53.09,118.58-118.58c0-5.89-.45-11.68-1.27-17.34,113.26-9.92,117.38,38.23,117.38,185.13v1037.09H143.88V143.87Z"/>
+  <text class="cls-1" transform="translate(1820.99 465.67)"><tspan x="0" y="0" xml:space="preserve"> Virtuelle</tspan></text>
+  <text class="cls-1" transform="translate(1795.48 1010.91)"><tspan x="0" y="0" xml:space="preserve"> Schrift</tspan></text>
+  <text class="cls-1" transform="translate(1888.72 1561.81)"><tspan x="0" y="0">Museum</tspan></text>
+</svg>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berühmte Typografen – Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../html/heropage.html">
+          <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="../video/berühmteypografen.mp4" type="video/mp4">
+
+    </video>
+    <div class="hero-content">
+      <h1>Berühmte Typografen</h1>
+      <p>Die großen Meister der Schriftkunst und ihre bahnbrechenden Werke.</p>
+    </div>
+  </section>
+
+  <main class="grid-section">
+    <div class="grid-content">
+      <h2>Meister der Typografie</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="../img/gutenberg.jpg" alt="Johannes Gutenberg">
+          <h3>Johannes Gutenberg</h3>
+          <p>Gutenberg revolutionierte die Welt mit der Erfindung des modernen Buchdrucks im 15. Jahrhundert. </p>
+          <a href="https://de.wikipedia.org/wiki/Johannes_Gutenberg" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/garamond.jpg" alt="Claude Garamond Schriftbeispiel">
+          <h3>Claude Garamond</h3>
+          <p>Garamond prägte die Typografie mit seinen eleganten serifenbetonten Schriften, die bis heute genutzt
+            werden.</p>
+            <a href="https://de.wikipedia.org/wiki/Claude_Garamond" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/baskerville.jpg" alt="Beispiel der Baskerville-Schrift">
+          <h3>John Baskerville</h3>
+          <p>Baskerville verbesserte die Drucktechnik und entwarf eine Schrift, die für ihre Eleganz und Lesbarkeit
+            bekannt ist.</p>
+            <a href="https://de.wikipedia.org/wiki/John_Baskerville" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function () {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

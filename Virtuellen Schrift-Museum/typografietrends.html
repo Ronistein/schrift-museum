@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typografie-Trends – Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../html/heropage.html">
+          <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="../video/Typografie-Trends.mp4" type="video/mp4">
+      Ihr Browser unterstützt kein Video.
+    </video>
+    <div class="hero-content">
+      <h1>Typografie-Trends</h1>
+      <p>Entdecken Sie aktuelle Entwicklungen und moderne Designs in der Typografie.</p>
+    </div>
+  </section>
+
+  <main class="grid-section">
+    <div class="grid-content">
+      <h2>Aktuelle Trends in der Typografie</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="../img/Minimalistische Schriften.jpg" alt="Minimalistische Schriften">
+          <h3>Minimalistische Schriften</h3>
+          <p>Schlichte und klare Typografie liegt im Trend, um modernes und elegantes Design zu schaffen.</p>
+          <a href="https://www.onlineprinters.de/magazin/minimalistische-schriftarten" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/Handgeschriebene Typografie.jpg" alt="Handgeschriebene Typografie">
+          <h3>Handgeschriebene Typografie</h3>
+          <p>Handgeschriebene Schriften verleihen Designs eine persönliche Note und Individualität.</p>
+          <a href="https://design.tutsplus.com/de/articles/20-stunning-handwritten-fonts--cms-28183" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/Variable Fonts.webp" alt="Variable Fonts">
+          <h3>Variable Fonts</h3>
+          <p>Moderne Schriftarten passen sich flexibel an verschiedene Designanforderungen an.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

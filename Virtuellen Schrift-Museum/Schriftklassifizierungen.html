@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schriftklassifizierungen – Virtuelles Schrift-Museum</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../html/heropage.html">
+          <img src="../img/logo weiß.svg" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img src="../img/burger-menu-right-svgrepo-com.svg" alt="">
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../html/heropage.html">Startseite</a></li>
+          <li><a href="../html/Schriftgeschichte.html">Schriftgeschichte</a></li>
+          <li><a href="../html/berühmteypografen.html">Berühmte Typografen</a></li>
+          <li><a href="../html/Schriftklassifizierungen.html">Schriftklassifizierungen</a></li>
+          <li><a href="../html/Webtypografie.html">Webtypografie</a></li>
+          <li><a href="../html/kreativeschriftmischungen.html">Kreative Schriftmischungen</a></li>
+          <li><a href="../html/typografietrends.html">Typografie-Trends</a></li>
+          <li><a href="../html/Kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="../video/schriftklassifizierungen.mp4" type="video/mp4">
+      Ihr Browser unterstützt kein Video.
+    </video>
+    <div class="hero-content">
+      <h1>Schriftklassifizierungen</h1>
+      <p>Erfahren Sie mehr über die verschiedenen Schriftarten und ihre Klassifikationen.</p>
+    </div>
+  </section>
+
+  <main class="grid-section">
+    <div class="grid-content">
+      <h2>Schriftklassifizierungen</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="../img/din16518.jpg" alt="DIN 16518 Übersicht">
+          <h3>DIN 16518-Klassifikation</h3>
+          <p>Diese deutsche Norm teilt Schriften in Antiqua, Grotesk und Fraktur ein, wobei jede Gruppe durch spezifische Merkmale wie Strichstärken, Serifen oder Proportionen definiert ist.</p>
+            <a href="https://de.wikipedia.org/wiki/DIN_16518" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/willberg_matrix.jpg" alt="Willbergs Typografie-Klassifikation">
+          <h3>Willbergs Klassifikationssystem</h3>
+          <p>Diese Klassifikation ordnet Schriften nach Stil, Verwendungszweck und Lesbarkeit, besonders für digitale Schriften.</p>
+            <a href="https://mediencommunity.de/book/export/html/6003" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+        <div class="grid-item">
+          <img src="../img/Vox-ATypI Klassifikation.png" alt="Vox-ATypI Klassifikation">
+          <h3>Vox-ATypI Klassifikation</h3>
+          <p>Diese Klassifikation basiert auf geometrischen Prinzipien und unterteilt Schriften nach Formverhältnissen, Strichstärken und ihrem Einsatz in digitalen sowie traditionellen Medien.</p>
+            <a href="https://www.grapheine.com/en/graphic-design-en/typographic-classification-learn-typography" class="btn" target="_blank">Mehr lesen</a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function () {
+      document.getElementById('nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>
